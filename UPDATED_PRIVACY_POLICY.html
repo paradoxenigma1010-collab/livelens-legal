@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LiveLens Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            color: #333;
+        }
+        h1 { color: #2563EB; margin-bottom: 10px; }
+        h2 { color: #111827; margin-top: 30px; }
+        p { margin: 10px 0; }
+        .meta { color: #6B7280; font-size: 14px; }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for LiveLens</h1>
+    <p class="meta"><strong>Effective Date:</strong> January 9, 2026<br>
+    <strong>Last Updated:</strong> January 9, 2026</p>
+
+    <p>LiveLens ("the App") is a general-purpose live streaming client for RTSP/HLS camera feeds and IPTV playlists. This privacy policy explains what data the App collects, how it's used, and your rights.</p>
+
+    <h2>Data Collection</h2>
+    <p>LiveLens stores the following data <strong>locally on your device only</strong> (not transmitted to any server):</p>
+    <ul>
+        <li><strong>Stream URLs and credentials</strong>: RTSP camera URLs, M3U playlist URLs, Xtream Codes account credentials (host, username, password), and EPG (electronic program guide) URLs you add to the app. These are stored in your device's local storage (Android SharedPreferences) to remember your sources between app sessions.</li>
+        <li><strong>Saved streams and favorites</strong>: Names, URLs, and categories of camera feeds and IPTV channels you save to your favorites list.</li>
+        <li><strong>App preferences</strong>: UI settings like category order, tour completion flags, filter preferences, and feature toggle states (e.g., whether the Discover playlists feature is enabled).</li>
+    </ul>
+
+    <p><strong>No data leaves your device or is sent to the app developer.</strong> LiveLens does not have analytics, tracking, crash reporting, or any network communication except:</p>
+    <ol>
+        <li><strong>Fetching your streams</strong>: When you add a camera feed or IPTV source, the app connects directly to the URL or server you provide to fetch video data or playlist information. This is a direct connection between your device and that source — the app developer is not involved and does not see this traffic.</li>
+        <li><strong>Stream Browser web access</strong>: The "Stream Browser" feature includes an embedded web browser that allows you to navigate websites to discover stream URLs. When you use this feature, your device makes direct HTTP(S) requests to the websites you visit — the app developer does not proxy, monitor, or log this browsing activity. Standard web privacy considerations apply (cookies, tracking by the sites you visit, etc.).</li>
+        <li><strong>Public playlist discovery</strong> (optional feature): The "Discover playlists" feature (which can be disabled in settings) fetches a list of public M3U playlist URLs from the iptv-org project on GitHub. No personal data is sent; this is a simple HTTP request to a public repository.</li>
+        <li><strong>Stream playback</strong>: When you play a camera feed or IPTV channel, your device connects directly to the stream URL from your saved list. The app developer does not host, proxy, or monitor this traffic.</li>
+    </ol>
+
+    <h2>Third-Party Data</h2>
+    <p>The app connects to <strong>sources you provide</strong> (camera servers, IPTV services, M3U playlists, Xtream Codes panels, and websites you browse in the Stream Browser). Those services and websites have their own privacy policies and may log your IP address, viewing habits, browsing activity, or other data. LiveLens has no control over or visibility into third-party data practices.</p>
+
+    <p><strong>You are responsible for reviewing the privacy policies of:</strong></p>
+    <ul>
+        <li>Any camera server, IPTV service, or playlist source you add to the app</li>
+        <li>Any website you visit using the Stream Browser feature</li>
+        <li>Any Xtream Codes panel or service provider you connect to</li>
+    </ul>
+
+    <h2>Data Security</h2>
+    <p>All data is stored locally on your device using Android's standard secure storage (SharedPreferences). Camera URLs, Xtream Codes passwords, and IPTV credentials are stored in plaintext locally (same trust level as your WiFi passwords or other app credentials stored by Android). The app does not encrypt this data at rest, and anyone with device administrator access or physical access to your unlocked device could read it.</p>
+
+    <p><strong>Do not use this app on a shared or untrusted device if you are concerned about credential security.</strong> If you save private camera URLs (e.g., home security cameras), be aware that they are stored unencrypted on the device.</p>
+
+    <h2>Camera Feed Privacy</h2>
+    <p>If you use LiveLens to view camera feeds, you are solely responsible for:</p>
+    <ul>
+        <li>Ensuring you have legal authorization to access those cameras</li>
+        <li>Complying with privacy laws in your jurisdiction regarding video surveillance</li>
+        <li>Not sharing or exposing private camera URLs to unauthorized parties</li>
+    </ul>
+    <p>The app provides a "Private URL" option that hides camera stream URLs in the UI, but this is a display preference only — the URLs are still stored locally in plaintext on your device.</p>
+
+    <h2>Data Deletion</h2>
+    <p>You can delete all app data at any time:</p>
+    <ul>
+        <li>Remove individual streams, playlists, or saved favorites within the app</li>
+        <li>Clear all app data via Android Settings → Apps → LiveLens → Storage → Clear Data</li>
+        <li>Uninstall the app to remove all stored data</li>
+    </ul>
+
+    <h2>Children's Privacy</h2>
+    <p>LiveLens is not directed at children under 13 and does not knowingly collect data from children. If you are a parent and believe your child has used this app, contact us at the email below and we will assist with data deletion.</p>
+
+    <h2>Your Rights</h2>
+    <p>Because all data is stored locally on your device and nothing is sent to the developer, your rights (access, correction, deletion) are exercised by managing the app's local storage directly on your device as described above. The app developer does not have access to your data and cannot retrieve, modify, or delete it remotely.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this policy occasionally. The "Last Updated" date at the top will reflect changes. Continued use of the app after changes constitutes acceptance.</p>
+
+    <h2>Contact</h2>
+    <p>For privacy questions or concerns: <strong>paradoxenigma1010@gmail.com</strong></p>
+
+    <hr style="margin: 40px 0; border: none; border-top: 1px solid #E5E7EB;">
+    <p style="text-align: center; color: #6B7280; font-size: 13px;">
+        <a href="terms.html" style="color: #2563EB;">Terms of Service</a> |
+        <a href="index.html" style="color: #2563EB;">Back to LiveLens</a>
+    </p>
+</body>
+</html>
